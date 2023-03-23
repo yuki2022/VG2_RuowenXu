@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1280
     height: 699
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -187,7 +187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 100
+    width: 319
     height: 384.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -211,9 +211,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 100
+    x: 319
     y: 0
-    width: 100
+    width: 456
     height: 384.5
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
@@ -238,9 +238,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 200
+    x: 775
     y: 0
-    width: 1080
+    width: 505
     height: 384.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -330,9 +330,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 200
+    x: 775
     y: 83
-    width: 1079
+    width: 504
     height: 363.5
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -453,7 +453,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 0
       snapOffset: {x: -681, y: -488}
-      snapOffsetDelta: {x: 0, y: 124.5}
+      snapOffsetDelta: {x: 177, y: 124.5}
       snapCorner: 3
       id: Scene View/Camera
       index: 1
@@ -753,7 +753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 83
-    width: 99
+    width: 318
     height: 363.5
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -766,24 +766,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 78700000
-      m_LastClickedID: 28792
-      m_ExpandedIDs: aee9fffff0faffff0afbffffd0620000
+      scrollPos: {x: 0, y: 18.410645}
+      m_SelectedIDs: 3e630000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 98f3fffff0faffff0afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Rifle_06
-        m_OriginalName: Rifle_06
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 25296
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -813,9 +813,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 100
+    x: 319
     y: 83
-    width: 98
+    width: 454
     height: 363.5
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -859,9 +859,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 200
+    x: 420
     y: 83
-    width: 1079
+    width: 859
     height: 363.5
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -880,7 +880,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1079, y: 342.5}
+  m_TargetSize: {x: 859, y: 342.5}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -895,8 +895,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -269.75
-    m_HBaseRangeMax: 269.75
+    m_HBaseRangeMin: -214.75
+    m_HBaseRangeMax: 214.75
     m_VBaseRangeMin: -85.625
     m_VBaseRangeMax: 85.625
     m_HAllowExceedBaseRangeMin: 1
@@ -916,23 +916,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1079
+      width: 859
       height: 342.5
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 539.5, y: 171.25}
+    m_Translation: {x: 429.5, y: 171.25}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -269.75
+      x: -214.75
       y: -85.625
-      width: 539.5
+      width: 429.5
       height: 171.25
     m_MinimalGUI: 1
   m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 2158, y: 727}
+  m_LastWindowPixelSize: {x: 1718, y: 727}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -984,23 +984,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Code/Q4
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Code/Q4
+  - Assets/Prefab
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/xuruowen/Video game/VG2_RuowenXu
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: a46e0000
-    m_LastClickedID: 28324
-    m_ExpandedIDs: 00000000b4640000f2640000f6640000fa64000000ca9a3b
+    scrollPos: {x: 0, y: 68.5}
+    m_SelectedIDs: f8640000
+    m_LastClickedID: 25848
+    m_ExpandedIDs: 00000000b4640000f664000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1055,7 +1055,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000046640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
