@@ -5,10 +5,11 @@ using UnityEngine.AI;
 
 namespace FPS
 {
-    public class enemy : MonoBehaviour
+    public class Enemy : MonoBehaviour
     {
         //Outlets
         NavMeshAgent navAgent;
+        Animator animator;
 
         //Configuraton
         public Transform target;
@@ -23,6 +24,7 @@ namespace FPS
         void Start()
         {
             navAgent = GetComponent<NavMeshAgent>();
+            animator = GetComponent<Animator>();
         }
 
         // Update is called once per frame
@@ -53,17 +55,18 @@ namespace FPS
                 //if the priority target gets too close, follow it and highlight ourselves
                 if (priorityTargetDistance <= chaseDistance) {
                     target = priorityTarget;
-                    GetComponent<Renderer>().material.color = Color.red;
+                    //GetComponent<Renderer>().material.color = Color.red;
                 }
                 else
                 {
-                    GetComponent<Renderer>().material.color = Color.white;
+                    //GetComponent<Renderer>().material.color = Color.white;
                 }
             }
 
             if (target) {
                 navAgent.SetDestination(target.position);
             }
+            animator.SetFloat("velocity", navAgent.velocity.magnitude);
         }
     }
 }
