@@ -78,7 +78,7 @@ Projector:
   m_FieldOfView: 60
   m_AspectRatio: 1
   m_Orthographic: 1
-  m_OrthographicSize: 1
+  m_OrthographicSize: 0.7
   m_Material: {fileID: 2100000, guid: a24a5bdcce6574f62810e8cf9c39afe2, type: 2}
   m_IgnoreLayers:
     serializedVersion: 2
@@ -656,7 +656,6 @@ GameObject:
   - component: {fileID: 5475205317576361369}
   - component: {fileID: 8744250149379235301}
   - component: {fileID: 7093837627657381335}
-  - component: {fileID: -893703344591517787}
   - component: {fileID: 3164138839689869816}
   m_Layer: 0
   m_Name: RTSCharacter
@@ -749,25 +748,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!119 &-893703344591517787
-Projector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1607831530560128345}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_NearClipPlane: 0.1
-  m_FarClipPlane: 100
-  m_FieldOfView: 60
-  m_AspectRatio: 1
-  m_Orthographic: 1
-  m_OrthographicSize: 0.7
-  m_Material: {fileID: 0}
-  m_IgnoreLayers:
-    serializedVersion: 2
-    m_Bits: 119
 --- !u!114 &3164138839689869816
 MonoBehaviour:
   m_ObjectHideFlags: 0
